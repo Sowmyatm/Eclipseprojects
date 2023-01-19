@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite1">
+  <test name="MyTestNew">
+    <classes>
+      <class name="com.mytestngtests.TestNGTestOne">
+      	<methods>
+      	<include name = "testScript_4"/>
+      	
+      	</methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

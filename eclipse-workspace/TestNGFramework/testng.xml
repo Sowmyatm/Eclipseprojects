@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MySuite">
+  <test name="SimpleTestOne">
+    <classes>
+      <class name="com.mytestngtests.TestNGTestOne"/>
+      
+    </classes>
+  </test><!-- Test -->
+  	
+  <test name="SimpleTestTwo">
+  	<classes>
+  		<class name="com.mytestngtests.TestNGTestTwo">
+  		</class>
+  	</classes>
+  </test>
+  	 
+
+
+	<test name="SimpleTestThree">
+  	  <classes>
+  		<class name="com.mytestngtests.TestNGTestThree">
+  		</class>
+  	  </classes>
+     </test>
+     
+     <test name="SimpleTestFour">
+  	<classes>
+  		<class name="com.mytestngtests.TestNGTestFour">
+  		</class>
+  	</classes>
+  </test>
+  	   	 
+</suite> <!-- Suite -->
+
